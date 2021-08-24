@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en" class="beforemika1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Sebastian Cyde Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" target=”_blank”>Sebastian Cyde</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" target=”_blank”>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target=”_blank”>Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target=”_blank”>CV</a>
+                    </li>
+                    <li class="nav-item hidden w3-center w3-animate-left" id="mikatab">
+                        <a class="nav-link" href="index.html" target=”_blank”>Mika</a>
+                    </li>
+
+                </ul>
+                <span class="navbar-text">
+                    Sebastian Cyde / Jr. Front End Developer
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Main Homepage Content -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-5">
+
+                <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active ">
+                            <img src="https://images.hdqwalls.com/wallpapers/goku-4k-7h.jpg" class="d-block w-100 "
+                                alt="..." id="car1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.desktopbackground.org/download/o/2010/11/05/106164_anime-wallpapers-high-definition-walf1hd006_3840x2160_h.jpg"
+                                class="d-block w-100" alt="..." id="car2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/originals/b4/e6/2e/b4e62eb8bc6c48830d5b6b87c60a84c1.jpg"
+                                class="d-block w-100" alt="..." id="car3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+
+                <span id="viewcode">
+                    <form action="" id="codeform">
+                        <button type="button" class="btn btn-danger hidden" id="codebutton">
+                            View
+                            Portfolio Code
+                        </button>
+                    </form>
+
+                    <p class="hidden" id="codetext">For anybody that's curious...</p>
+                </span>
+
+
+
+
+
+
+                <span id="mikaedit4" class="hidden">
+                    <ul class="list-group">
+
+                        <li class="list-group-item list-group-item-primary">HTML</li>
+                        <li class="list-group-item list-group-item-secondary">CSS</li>
+                        <li class="list-group-item list-group-item-success">Bootstrap</li>
+                        <li class="list-group-item list-group-item-danger">JavaScript</li>
+
+                        <li class="list-group-item list-group-item-info">Responsive Design</li>
+                        <li class="list-group-item list-group-item-light">Node JS</li>
+                        <li class="list-group-item list-group-item-dark">AJAX / AJAJ</li>
+                    </ul>
+                </span>
+
+            </div>
+            <div class="col-1">
+
+            </div>
+
+
+
+            <div class="intro col-6">
+                <h1>Hello,</h1>
+
+                <span id="mikaedit2"></span>
+                <span id="mikaedit3"></span>
+
+                <p class="mikaremove1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, aut quam reprehenderit asperiores
+                    fugiat odio quae quidem eius quos. Molestiae soluta quisquam voluptatum facilis aspernatur?
+                </p>
+
+                <span class="helpercontainer" id="helpercontainer">
+                    <button id="MikaEnabler" class="btn btn-primary helper" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable
+                        Mika</button>
+
+
+                </span>
+                <span class="pointercontainer" id="pointercontainer">
+                    <img src="images/select.svg" alt="" class="pointer " id="pointer">
+                </span>
+                <span id="mikacards" class=" hidden ">
+                    <div class="card caroshadow" style="width: 18rem;">
+                        <img src="images/ibkrcard1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Interactive Brokers</b> </h5>
+                            <p class="card-text">A modern redesign for the mobile version of the Interactive Brokers
+                                website.
+                                <br>
+                            </p>
+                            <a href="https://sebcyde.github.io/Interactive-Brokers-Mobile/" class="btn btn-primary">View
+                                Live Website</a>
+
+                        </div>
+                    </div>
+
+                    <div class="card caroshadow" style="width: 18rem;">
+                        <img src="images/segacard2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Sega Redesign</b></h5>
+                            <p class="card-text">A redesign of the Sega homepage. My first project, responsive for all
+                                screen sizes.
+                            </p>
+                            <a href="#" class="btn btn-primary">View Live Website</a>
+                        </div>
+                    </div>
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Sidebar -->
+
+        <div class="off" id="bg">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop"
+                aria-labelledby="offcanvasWithBackdropLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Welcome to the portfolio!</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" id="ocb">
+
+                    <div id="oc1">
+                        <p>Welcome to Sebastian's Portfolio, I'll be your guide today. My name is Mika, what's
+                            yours?</p>
+
+                        <form action="" id="nameform">
+
+                            <input type="text" placeholder="Enter Name" name="user" id="username">
+
+                            <br>
+                            <br>
+
+                            <button type="submit">Submit</button>
+
+                        </form>
+
+
+
+
+                    </div>
+                    <img src="images/shorthairgirl/jes_defa1.png" alt="" class="col-12 mika1">
+
+                    <div id="oc2" class="hidden container">
+                        <div class="row oc2row">
+                            <p class="col-12 nicename">? That's a nice name.
+                                <br>
+                                <br>
+                                Well, it's nice to meet you!
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <img src="images/shorthairgirl/jes_waraia2.png" alt="" class="col-12
+                         hidden mika2">
+
+                    <div id="oc3" class="hidden">
+
+                        <p>, greetings aside, I have a lot to show you so let's not waste any time!
+                            <br>
+                            <br>
+                            I'll take you on a tour of the portfolio.
+                        </p>
+
+
+
+                        <button id="endoc3">Take Tour</button>
+
+                    </div>
+                    <img src="images/shorthairgirl/jes_futekia1.png" alt="" class="hidden mika3">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Main Screen Mika -->
+
+        <div id="dim" class="dim hidden">
+
+            <div id="mm1" class="hidden">
+
+                <img src="images/shorthairgirl/jes_tohohoa3.png" alt=""
+                    class="mainmika  mika4 w3-center w3-animate-left">
+
+                <p>Alright, so we're back on the homescreen...
+                    <br>
+                    Theres a lot more room down here at least...
+                </p>
+
+            </div>
+
+            <div id="mm2" class="hidden">
+
+                <img src="images/shorthairgirl/jes_komarua1.png" alt="">
+
+                <p>But it does look a little empty and boring... why don't we do something about that...</p>
+
+            </div>
+
+            <div id="mm3" class="hidden">
+
+                <img src="images/shorthairgirl/jes_nayamua1.png" alt="">
+
+                <p>I'll give you this in case you're not in the mood to redecorate with me... hopefully you won't
+                    need it though...</p>
+
+            </div>
+
+
+        </div>
+
+        <div class="misstheshow hidden" id="xbox">
+
+            <button type="button" class="btn-close btn-close-white exitmika " aria-label="Close" id="exitmika"></button>
+
+
+            <p class="mts ">Click to miss the show</p>
+
+        </div>
+
+
+        <span class="exitbuttons hidden" id="xbuttons">
+
+            <a href="/projects/projects.html" target=”_blank”>
+                <button type="button" class="btn btn-primary form1 hidden below">PROJECTS</button>
+            </a>
+
+
+            <a href="" target=”_blank”>
+                <button type="button" class="btn btn-primary form2 hidden below">CONTACT</button>
+            </a>
+
+        </span>
+
+        <span class="gray">
+
+            <div id="mm4" class="hidden">
+
+                <img src="images/shorthairgirl/jes_atyaa1.png" alt="">
+
+                <p>Alright, let's get editing!</p>
+
+            </div>
+
+
+            <div id="mm5" class="hidden">
+
+                <img src="images/shorthairgirl/jes_atyaa2.png" alt="">
+
+                <p>I hate the gloomy feel in here, so how about we start by brightening it up a bit?</p>
+
+            </div>
+
+
+            <div id="mm6" class="hidden">
+
+                <img src="images/shorthairgirl/jes_tohohoa1.png" alt="">
+
+                <p>And we'll get rid of this...</p>
+
+            </div>
+
+            <div id="mm7" class="hidden">
+
+                <img src="images/shorthairgirl/jes_tohohoa1.png" alt="">
+
+                <p>And add this...</p>
+
+            </div>
+
+            <div id="mm8" class="hidden">
+
+                <img src="images/shorthairgirl/jes_tohohoa1.png" alt="">
+
+                <p>And change this...</p>
+
+            </div>
+
+            <div id="mm9" class="hidden">
+
+                <img src="images/shorthairgirl/jes_tohohoa1.png" alt="" id="mm9img">
+
+                <p>Maybe a nice shadow on here...</p>
+
+            </div>
+
+            <div id="mm10" class="hidden">
+
+                <img src="images/shorthairgirl/jes_waraia1.png" alt="" id="mm9img">
+
+                <p>You may want this later...</p>
+
+            </div>
+
+
+            <div id="mm11" class="hidden">
+
+                <img src="images/shorthairgirl/jes_akuwaraia1.png" alt="" id="mm9img">
+
+                <p>Some project examples...</p>
+
+            </div>
+
+
+            <div id="mm12" class="hidden">
+
+                <img src="images/shorthairgirl/jes_waraia1.png" alt="" id="mm9img">
+
+                <p>And a skills list!</p>
+
+            </div>
+
+
+            <div id="mm13" class="hidden">
+
+                <img src="images/shorthairgirl/jes_majimea1.png" alt="" id="mm9img">
+
+                <p>Hmm... what else to add...</p>
+
+            </div>
+
+            <div id="mm14" class="hidden">
+
+                <img src="images/shorthairgirl/jes_nakiwaraia1.png" alt="" id="mm9img">
+
+                <p>I can't think of anything else...</p>
+
+            </div>
+
+
+            <div id="mm15" class="hidden">
+
+                <img src="images/shorthairgirl/jes_futekia2.png" alt="" id="mm9img">
+
+                <p>Alright! It's been fun, but I think my work here is done. </p>
+
+            </div>
+
+            <div id="mm16" class="hidden">
+
+                <img src="images/shorthairgirl/jes_akuwaraia1.png" alt="" id="mm9img">
+
+                <p>I'll add a Mika tab in the navbar, so feel free to visit!</p>
+
+            </div>
+
+            <div id="mm17" class="hidden">
+
+                <img src="images/shorthairgirl/jes_defa1.png" alt="" id="mm9img">
+
+                <p>See you!</p>
+
+            </div>
+
+        </span>
+
+
+
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
